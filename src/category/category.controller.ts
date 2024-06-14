@@ -18,7 +18,7 @@ export class CategoryController {
     return await this.categoryService.create(createCategoryDto, currentUser);
   }
 
-
+git
   @Get('findAll')
   async findAll() {
     let categories = await this.categoryService.findAll();
